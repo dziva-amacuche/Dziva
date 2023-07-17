@@ -1,0 +1,326 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background-color: white !important;
+}
+
+/* //RESPONSIVENESS FOR MOBILE */
+@media only screen and (max-width: 768px) {
+  .home {
+    overflow: hidden;
+    min-height: 100vh;
+    max-width: 100%;
+  }
+
+  .banner-info {
+    top: 8rem !important;
+    left: 1.5rem !important;
+    width: 100% !important;
+  }
+
+  .banner-info p {
+    width: 20rem !important;
+  }
+
+  .banner-info h1 {
+    color: #dc241f;
+    width: 100% !important;
+    font-size: 38px !important;
+  }
+
+  .banner-info p {
+    margin: 2rem 0 1rem 0;
+    color: #ffffff;
+    font-size: 20px;
+  }
+
+  .banner-info.buttons {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+  }
+
+  .option {
+    min-height: 100vh;
+    overflow: hidden;
+  }
+
+  .option p {
+    font-size: 20px !important;
+  }
+
+  .option h2 {
+    font-size: 38px !important;
+  }
+
+  .option ul li {
+    list-style: circle;
+  }
+
+  .option-header {
+    margin: 2rem 1rem !important;
+  }
+
+  .content-container {
+    display: flex;
+    flex-direction: column !important;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .content-container img {
+    width: 100% !important;
+  }
+
+  .option-text {
+    width: 90% !important;
+  }
+
+  .rename h4 {
+    text-align: center;
+    font-size: 24px !important;
+    margin: 0 2rem !important;
+  }
+
+  .rename-box {
+    display: flex;
+    flex-direction: column !important;
+    margin: 2rem 4rem !important;
+  }
+
+  .rename-box img {
+    width: 90% !important;
+  }
+
+  .rename-description {
+    width: 100% !important;
+  }
+  .rename-description p {
+    margin: 1rem 0rem !important;
+    width: 100% !important;
+  }
+
+  .rename-description h4 {
+    text-align: left;
+    margin: 0 !important;
+  }
+
+  .rename ul li {
+    font-size: 20px !important;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  color: #171717;
+  font-family: "Actor", sans-serif;
+}
+
+h1 h2 h3 h4 h5 h6 {
+  color: #dc241f;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.coming-soon {
+  background-color: hsla(0, 8%, 72%, 0.404);
+  backdrop-filter: blur(1.2px);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+  line-height: 100vh;
+  top: 0;
+  z-index: 1;
+  position: absolute;
+}
+
+.background-image {
+  background-image: url("../assets/images/tech-people.jpg");
+  filter: brightness(70%) contrast(75%);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  z-index: -1;
+}
+
+.background-image.consultoria {
+  background-image: url("../assets/images/consulting-bg.jpg");
+}
+
+.background-image.rede {
+  background-image: url("../assets/images/network-bg.jpg");
+}
+
+.background-image.web {
+  background-image: url("../assets/images/web-bg.jpg");
+}
+
+.background-image.cctv {
+  background-image: url("../assets/images/cctv-bg.jpg");
+}
+
+.background-image.management {
+  background-image: url("../assets/images/management-bg.jpg");
+}
+
+.banner-info {
+  top: 12rem;
+  position: absolute;
+  width: 30%;
+  left: 10rem;
+}
+
+.banner-info h1 {
+  color: #dc241f;
+  width: 205%;
+  font-size: 48px;
+}
+
+.banner-info p {
+  margin: 2rem 0 1rem 0;
+  color: hwb(0 100% 0%);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.banner-info.buttons {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+}
+.banner-info ul {
+  margin: 2rem;
+}
+
+.banner-info ul li {
+  font-size: 18px;
+  color: #c7c1c1;
+  margin: 8px;
+  list-style: square;
+}
+
+.banner-info ul li a {
+  cursor: pointer;
+  color: #c7c1c1;
+}
+
+.banner-info ul li a:hover {
+  color: #dc241f;
+}
+
+.buttons button {
+  border: none;
+  padding: 0.5rem;
+  cursor: pointer;
+  border-radius: 3px;
+  font-size: 15px;
+  margin-top: 1rem;
+}
+.more-info {
+  background-color: #dc241f;
+  width: 6rem;
+  color: white;
+  transition: background-color 0.25s ease-in-out;
+}
+
+.more-info:hover {
+  background-color: #a32d29;
+}
+
+.option {
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.option p {
+  font-size: 18px;
+}
+
+.option h2 {
+  font-size: 42px;
+  margin: 0 0 1rem 0;
+}
+
+.option ul li {
+  list-style: circle;
+}
+
+.option-header {
+  margin: 4rem 12rem;
+}
+
+.content-container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-container .img {
+  width: 30rem;
+  height: 20rem;
+}
+
+.content-container .it{
+  width: 14rem;
+  height: 12rem;
+}
+.option-text {
+  width: 40%;
+}
+
+.rename h4 {
+  text-align: center;
+  font-size: 32px;
+  margin: 0 8rem;
+}
+
+.rename-box {
+  display: flex;
+  margin: 2rem 8rem;
+  gap: 4rem;
+}
+
+.rename-box .img {
+  width: 25rem;
+  height: 15rem;
+}
+
+
+
+.rename-description {
+  width: 50%;
+}
+.rename-description p {
+  margin-left: 4rem;
+  width: 80%;
+}
+
+.rename-description h4 {
+  text-align: left;
+  margin: 1rem 0 2rem 4rem;
+}
+
+.rename ul li {
+  font-size: 22px;
+  margin: 1rem 0;
+  list-style: disc;
+}

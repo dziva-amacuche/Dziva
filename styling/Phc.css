@@ -1,0 +1,275 @@
+body {
+  background-color: white;
+}
+
+.gestao-content {
+  width: 100%;
+  height: auto;
+}
+
+.gestao-content h3 {
+  text-align: center;
+  padding-top: 4rem;
+  font-size: 24px;
+  font-weight: bolder;
+}
+.gestao-content h3 span {
+  font-weight: lighter;
+}
+
+.gestao-content p {
+  text-align: center;
+  padding: 2rem 14rem;
+  width: 100%;
+}
+
+.gestao-content .img-container {
+display: flex;
+align-items: center;;
+justify-content: center;
+width: 100%;
+height: 60%;
+}
+
+.gestao-content .img-container .img{
+  width: 70%;
+  height: 100%;
+}
+.gestao-description {
+  height: 100vh;
+}
+
+.gestao-description h3 {
+  text-align: center;
+  padding-top: 4rem;
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+.gestao-description h3 span {
+  font-weight: lighter;
+}
+
+.description-options {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 8rem;
+  gap: 2rem;
+}
+
+.description-options.option {
+  width: 45rem;
+}
+
+.option img {
+  width: 20rem;
+  height: 15rem;
+}
+
+.option h4 {
+  padding-top: 1rem;
+  width: 18rem;
+}
+
+.option p {
+  padding-top: 1rem;
+  width: 18rem;
+  font-size: 14px;
+}
+
+.more-gestao {
+  width: 100vw;
+  margin-bottom: 0;
+}
+
+.more-gestao h3 {
+  text-align: center;
+  padding-top: 4rem;
+  font-size: 38px;
+  margin: 0 16rem;
+  margin-bottom: 2rem;
+  font-weight: bolder;
+}
+
+.more-gestao h3 span {
+  font-weight: lighter;
+}
+
+.more-gestao-options {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin: 4rem 10rem;
+}
+
+.more-gestao-options p {
+  cursor: pointer;
+  flex-shrink: 1;
+  font-size: 20px;
+}
+
+.more-gestao-options p:active {
+  color: red;
+}
+
+.more-gestao .option {
+  margin: 2rem 8rem 0rem 8rem;
+  display: flex;
+  height: auto;
+  justify-content: space-between;
+}
+
+.more-gestao .option ul {
+  width: 24rem;
+  list-style: circle !important;
+}
+
+.more-gestao .option li {
+  margin: 0.8rem 0;
+}
+
+.more-gestao .option img{
+display: flex;
+justify-content: center;
+width: 28rem;
+height: 18rem;
+}
+
+
+
+.youtube {
+  width: 100rem;
+  height: 50vh;
+  padding: 1rem 22rem;
+  margin-bottom: 4rem;
+}
+/* 
+.more-gestao .option img.phone{
+  min-height: fit-content;
+  height: 120vh;
+  width: 25rem;
+  margin: 5rem;
+} */
+.phc-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8rem;
+  background-color: rgb(235, 235, 235);
+  height: 50vh;
+}
+
+.more-text {
+  width: 25rem;
+}
+
+.more-text h3 {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.more-text p {
+  margin-top: 1rem;
+}
+
+.form-space {
+  display: flex;
+  gap: 2rem;
+}
+
+.more-form input {
+  background: none;
+  border: none;
+  border-bottom: 1px solid black;
+  width: 18rem;
+  padding: 3rem 1rem 1rem 0;
+  font-size: 16px;
+}
+
+.checkbox-container {
+  display: flex;
+  margin: 1rem 0 0 -8.4rem;
+  align-items: center;
+  border: none;
+}
+
+.checkbox-container input {
+  padding: 0 !important;
+  background-color: none;
+  border-radius: 0;
+  border: none !important;
+}
+
+.checkbox-container p {
+  margin-left: -8rem;
+}
+
+.checkbox-container p span {
+  color: red;
+}
+.more-form button {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 0.5rem 2rem;
+  border-radius: 4px;
+  margin-top: 1rem;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.more-form button:hover {
+  background-color: rgb(199, 10, 10);
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  .gestao-content h3 {
+    margin: 0 2rem;
+  }
+  .gestao-content p {
+    margin: 0 -3.5rem;
+  }
+  .gestao-content img {
+    margin: 0 -20rem;
+    width: 15rem;
+    object-fit: cover;
+    object-position: 50% 50%;
+  }
+
+  .gestao-description {
+    height: fit-content;
+  }
+
+  .description-options {
+    display: flex;
+    flex-direction: column !important;
+  }
+  .description-options .option {
+    width: 20rem;
+    margin: 0 -5.5rem;
+    margin-bottom: -15rem;
+  }
+
+  .more-gestao h3 {
+    visibility: hidden;
+  }
+
+  .more-gestao .more-gestao-options {
+    display: flex;
+    flex-direction: column !important;
+    margin: 0 4rem;
+  }
+
+  .more-gestao .more-gestao-options p {
+    margin: 1rem 0;
+  }
+
+  .more-gestao .option {
+    visibility: hidden;
+  }
+}
