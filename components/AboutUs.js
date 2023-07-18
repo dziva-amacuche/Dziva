@@ -7,7 +7,7 @@ function AboutUs() {
   return (
     <About>
       <main>
-        <h1>Um pouco sobre nós</h1>
+        <h1>Um pouco sobre nós 1001 </h1>
         <div className="about-container">
           <div className="text-container">
             <div className="about-text">
