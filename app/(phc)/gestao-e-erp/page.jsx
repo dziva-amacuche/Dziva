@@ -11,15 +11,15 @@ import Background from "@/assets/images/phc/erp-bg.jpg";
 
 //Options
 import Artigos from "@/assets/images/phc/erp/artigos.jpg";
-import BPM from "@/assets/images/phc/erp/bpm.jpg";
+import BPM from "@/assets/images/phc/erp/BPM.jpg";
 import Dashboard from "@/assets/images/phc/erp/dashboard.jpg";
-import Documental from "@/assets/images/phc/erp/documental.jpg";
+import Documental from "@/assets/images/phc/erp/Documental.jpg";
 import Electronicos from "@/assets/images/phc/erp/electronicos.jpg";
-import Factoring from "@/assets/images/phc/erp/factoring.jpg";
-import Gerais from "@/assets/images/phc/erp/gerais.jpg";
-import Operacional from "@/assets/images/phc/erp/operacional.jpg";
-import Qualidade from "@/assets/images/phc/erp/qualidade.jpg";
-import Web from "@/assets/images/phc/erp/web.jpg";
+import Factoring from "@/assets/images/phc/erp/Factoring.jpg";
+import Gerais from "@/assets/images/phc/erp/Gerais.jpg";
+import Operacional from "@/assets/images/phc/erp/Operacional.jpg";
+import Qualidade from "@/assets/images/phc/erp/Qualidade.jpg";
+import Web from "@/assets/images/phc/erp/Web.jpg";
 
 function GestaoERP() {
   const [selectedOption, setSelectedOption] = useState("firstOption");

@@ -11,14 +11,14 @@ import Background from "@/assets/images/phc/financeira-bg.jpg";
 
 //Options
 import Gerais from "@/assets/images/phc/financeira/gerais.jpg";
-import Consolidacao from "@/assets/images/phc/financeira/consolidacao.jpg";
-import Imobilizado from "@/assets/images/phc/financeira/imobilizado.jpg";
-import Letras from "@/assets/images/phc/financeira/letras.jpg";
-import Mapas from "@/assets/images/phc/financeira/mapas.jpg";
+import Consolidacao from "@/assets/images/phc/financeira/Consolidacao.jpg";
+import Imobilizado from "@/assets/images/phc/financeira/Imobilizado.jpg";
+import Letras from "@/assets/images/phc/financeira/Letras.jpg";
+import Mapas from "@/assets/images/phc/financeira/Mapas.jpg";
 import Operacionais from "@/assets/images/phc/financeira/Operacionais.jpg";
 import PessoalGerais from "@/assets/images/phc/financeira/Pessoal-Gerais.jpg";
-import PessoalMapas from "@/assets/images/phc/financeira/Pessoal-Mapas.jpg";
-import PessoalOperacionais from "@/assets/images/phc/financeira/Pessoal-Operacionais.jpg";
+import PessoalMapas from "@/assets/images/phc/financeira/Pessoal-mapas.jpg";
+import PessoalOperacionais from "@/assets/images/phc/financeira/Pessoal-operacionais.jpg";
 import Portal from "@/assets/images/phc/financeira/Portal.jpg";
 import Processamento from "@/assets/images/phc/financeira/Processamento.jpg";
 

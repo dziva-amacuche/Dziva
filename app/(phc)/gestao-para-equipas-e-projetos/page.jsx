@@ -139,7 +139,7 @@ function Humano() {
               <li>Rede colaborativa para agilização da comunicação interna</li>
             </ul>
 
-            <Image></Image>
+            <Image src={Second2}></Image>
           </div>
         );
 
@@ -159,7 +159,6 @@ function Humano() {
           </div>
         );
 
-        break;
 
       default:
         break;

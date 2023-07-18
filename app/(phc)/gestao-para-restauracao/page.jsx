@@ -14,7 +14,7 @@ import First1 from "@/assets/images/phc/restauracao/gestao.jpg";
 import Second1 from "@/assets/images/phc/restauracao/artigos.png";
 import Third1 from "@/assets/images/phc/restauracao/terminal.jpg";
 import Fourth1 from "@/assets/images/phc/restauracao/monotorizacao.png";
-import Fifth1 from "@/assets/images/phc/restauracao/analises.jpg";
+import Fifth1 from "@/assets/images/phc/restauracao/Analises.jpg";
 
 function Restauracao() {
   const [selectedOption, setSelectedOption] = useState("firstOption");

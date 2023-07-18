@@ -12,8 +12,8 @@ import Background from "@/assets/images/phc/construcao-bg.jpg";
 //Options
 import First1 from "@/assets/images/phc/construcao/gerais.jpg";
 import Second1 from "@/assets/images/phc/construcao/orcamentacao.jpg";
-import Third1 from "@/assets/images/phc/construcao/planeamento.jpg";
-import Fourth1 from "@/assets/images/phc/construcao/medicoes.jpg"
+import Third1 from "@/assets/images/phc/construcao/Planeamento.jpg";
+import Fourth1 from "@/assets/images/phc/construcao/Medicoes.jpg"
 
 import First2 from "@/assets/images/phc/construcao/gestao.jpg";
 import Second2 from "@/assets/images/phc/construcao/revisao.jpg";

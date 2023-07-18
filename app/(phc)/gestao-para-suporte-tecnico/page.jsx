@@ -10,10 +10,10 @@ import "@/styling/Phc.css";
 import Background from "@/assets/images/phc/support-bg.jpg";
 
 //Options
-import Analises from "@/assets/images/phc/suporte/analises.png";
-import Assistencia from "@/assets/images/phc/suporte/assistencia.png";
-import Internet from "@/assets/images/phc/suporte/internet.png";
-import Pedidos from "@/assets/images/phc/suporte/pedidos.png";
+import Analises from "@/assets/images/phc/suporte/Analises.png";
+import Assistencia from "@/assets/images/phc/suporte/Assistencia.png";
+import Internet from "@/assets/images/phc/suporte/Internet.png";
+import Pedidos from "@/assets/images/phc/suporte/Pedidos.png";
 
 function SuporteTecnico() {
   const [selectedOption, setSelectedOption] = useState("firstOption");

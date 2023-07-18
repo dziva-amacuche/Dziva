@@ -180,7 +180,7 @@ function CRM() {
               </li>
             </ul>
 
-            <Image ></Image>
+            <Image src={Second2}></Image>
           </div>
         );
 
@@ -234,7 +234,6 @@ function CRM() {
           </div>
         );
 
-        break;
 
       default:
         break;

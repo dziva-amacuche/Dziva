@@ -9,10 +9,7 @@ import PHCForm from "@/components/PHCForm";
 import "@/styling/Phc.css";
 import Background from "@/assets/images/phc/seguranca-bg.jpg";
 
-//Options
-import First1 from "@/assets/images/phc/seguranca/pcguia_2022_melhorsw-V2-01.png";
-import Second1 from "@/assets/images/phc/seguranca/pcguia_2022_melhorsw-V2-01.png";
-import Third1 from "@/assets/images/phc/seguranca/pcguia_2022_melhorsw-V2-01.png";
+
 
 function Seguranca() {
   const [selectedOption, setSelectedOption] = useState("firstOption");
