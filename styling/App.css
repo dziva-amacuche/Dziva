@@ -4,7 +4,7 @@
   font-family: "Montserrat", sans-serif;
 }
 body {
-  background-color: white !important;
+  background-color: rgb(255, 255, 255) !important;
 }
 
 /* //RESPONSIVENESS FOR MOBILE */
@@ -26,7 +26,7 @@ body {
   }
 
   .banner-info h1 {
-    color: #dc241f;
+    color: hsl(2, 75%, 49%);
     width: 100% !important;
     font-size: 38px !important;
   }
