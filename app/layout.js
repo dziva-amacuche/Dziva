@@ -1,3 +1,7 @@
+export const metadata = {
+  title: "Dziva"
+};
+
 "use client";
 
 import "./globals.css";
@@ -8,9 +12,7 @@ import "@/styling/App.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata = {
-  title: "Dziva"
-};
+
 
 export default function RootLayout({ children }) {
   return (
