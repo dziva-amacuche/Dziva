@@ -19,11 +19,11 @@ import Workstation from "@/assets/images/aluguer/saas-workstation.jpeg";
 
 import Arista from "@/assets/images/aluguer/partners/Arista_Logo.png";
 import Brocade from "@/assets/images/aluguer/partners/Brocade_Logo.png"
-import Cisco from "@/assets/images/aluguer/partners/Cisco_Logo.png"
+import Cisco from "@/assets/images/aluguer/partners/CISCO_Logo.png"
 import DellEMC from "@/assets/images/aluguer/partners/DellEMC_Logo.png"
-import Fujitsu from "@/assets/images/aluguer/partners/fujitsu_logo.png"
-import Hitachi from "@/assets/images/aluguer/partners/hitachi_logo.png"
-import HPE from "@/assets/images/aluguer/partners/HPE_logo.png"
+import Fujitsu from "@/assets/images/aluguer/partners/Fujitsu_Logo.png"
+import Hitachi from "@/assets/images/aluguer/partners/Hitachi_Logo.png"
+import HPE from "@/assets/images/aluguer/partners/HPE_Logo.png"
 import Huawei from "@/assets/images/aluguer/partners/Huawei_logo.png"
 import IBM from "@/assets/images/aluguer/partners/IBM_logo.png"
 import Juniper from "@/assets/images/aluguer/partners/Juniper_logo.png"
