@@ -10,7 +10,7 @@ import "@/styling/Phc.css";
 import Background from "@/assets/images/phc/financeira-bg.jpg";
 
 //Options
-import Gerais from "@/assets/images/phc/financeira/gerais.jpg";
+import Gerais from "@/assets/images/phc/financeira/Gerais.jpg";
 import Consolidacao from "@/assets/images/phc/financeira/Consolidacao.jpg";
 import Imobilizado from "@/assets/images/phc/financeira/Imobilizado.jpg";
 import Letras from "@/assets/images/phc/financeira/Letras.jpg";

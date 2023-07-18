@@ -2,7 +2,7 @@ import React from "react";
 import "@/styling/App.css";
 import Technician from "../assets/images/remote-desktop.png";
 import Image from "next/image";
-import Support from "../assets/images/it-support.jpg";
+import Support from "../assets/images/IT-Support.jpg";
 
 
 function SuporteDeTI() {

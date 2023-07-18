@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Background from "@/assets/images/web-bg.jpg"
-import "@/styling/app.css";
+import "@/styling/App.css";
 
 function Web() {
   return (

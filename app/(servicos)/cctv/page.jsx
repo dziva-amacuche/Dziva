@@ -1,7 +1,7 @@
 import React from "react";
 import Background from "@/assets/images/cctv-bg.jpg"
 
-import "@/styling/app.css";
+import "@/styling/App.css";
 import Image from "next/image";
 
 

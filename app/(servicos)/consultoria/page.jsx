@@ -4,7 +4,7 @@ import styled from "styled-components";
 // import Footer from "@/components/Footer.js";
 import Image from "next/image";
 import Background from "@/assets/images/consulting-bg.jpg"
-import "@/styling/app.css";
+import "@/styling/App.css";
 import Partners from "@/components/Partners.js";
 import Outsourcing from "@/components/Outsourcing.js";
 import SuporteDeTI from "@/components/SuporteDeTI.js";
